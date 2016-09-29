@@ -1,4 +1,6 @@
-﻿(function () {
+﻿window.DIVISION_FACTOR = 3;
+
+(function () {
     'use strict';
 
     angular.module('app')
@@ -113,12 +115,15 @@
                 vm.currentlyDownloading = true;
                 //var duration = toSeconds(nextItemToDownload.clip.duration);
                 var hold = toSeconds(nextItemToDownload.clip.hold);
-                if (hold > 150) {
-                    hold = 150;
+
+                if (hold > 180) {
+                    hold = 180;
                 }
-                if (hold < 20 && hold > 0) {
-                    hold = 20;
+
+                if (hold < 30 && hold > 0) {
+                    hold = 30;
                 }
+
                 ll("holding for: ", hold + " secs");
                 $timeout(function () {
 
@@ -137,7 +142,7 @@
             var sec = (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]);
             //ll("seconds", sec/3);
 
-            return window.parseInt(Math.ceil(sec / 3));
+            return window.parseInt(Math.ceil(sec / window.DIVISION_FACTOR));
             
         }
         function downloadClip(clip, module) {
@@ -204,6 +209,12 @@
                 // Why?, so that the controllers knows that it should continue processing next clips in the downloads queue.
                 $scope.$emit("clipsToDownloadQueue.finish");
             });
+        }
+
+        if (vm.courseName) {
+            if (vm.courseName != '') {
+                vm.courseName
+            }
         }
 
         loadCourseData();

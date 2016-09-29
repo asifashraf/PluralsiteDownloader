@@ -10,10 +10,6 @@ namespace PluralsightDownloader.Web.Controllers
         {
             ViewBag.Title = "Home Page";
 
-            if (String.IsNullOrEmpty(model.course))
-            {
-                model.course = "node-application-patterns";
-            }
 
             return View(model);
         }
