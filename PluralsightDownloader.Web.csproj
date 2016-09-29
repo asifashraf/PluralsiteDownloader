@@ -179,6 +179,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Extensions\StringExtentions.cs" />
     <Compile Include="ViewModel\ClipToSave.cs" />
+    <Compile Include="ViewModel\HomeModel.cs" />
     <Compile Include="ViewModel\ProgressArgs.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

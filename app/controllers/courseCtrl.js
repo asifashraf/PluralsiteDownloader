@@ -8,7 +8,7 @@
 
     function courseCtrl($scope, $rootScope, coursesService, _, Hub, $timeout, toaster) {
         var vm = this;
-        vm.courseName = '';
+        vm.courseName = window.courseName;
         vm.course = undefined;
         vm.clipsToDownloadQueue = [];
         vm.currentlyDownloading = false;
@@ -20,7 +20,7 @@
         vm.processClipsQueue = processClipsQueue;
         vm.downloadClip = downloadClip;
         vm.delayBetweenClips = 20; // delay in seconds
-
+        window.ctrlCourse = this;
         activate();
         /////////////////////////////////////
 
@@ -66,6 +66,7 @@
                     vm.course = undefined;
                 } else {
                     vm.course = course;
+                    vm.addCourseToDownloadList();
                 }
             }, function (error) {
                 toaster.pop({
@@ -204,5 +205,7 @@
                 $scope.$emit("clipsToDownloadQueue.finish");
             });
         }
+
+        loadCourseData();
     }
 })();
