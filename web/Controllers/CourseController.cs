@@ -55,8 +55,33 @@ namespace PluralsightDownloader.Web.Controllers
         [Route("clip/{clipname}/download/")]
         public async Task<IHttpActionResult> DownloadCourseModuleClip(string clipname, ClipToSave clipToSave)
         {
+            #region Video save location
+            // 1- make sure the folders structure exist.
+            var videoSaveDirectory = SetUpVideoFolderStructure(clipToSave.CourseTitle,
+                getNum(clipToSave.ModuleIndex) + "- " + clipToSave.ModuleTitle,
+                (getNum(clipToSave.ClipIndex)) + "- " + clipToSave.Title);
+
+            var videoFileName = ((getNum(clipToSave.ClipIndex)) + "- " + clipToSave.Title + ".mp4").ToValidFileName();
+
+            var videoSaveLocation = videoSaveDirectory.FullName + "\\" + videoFileName;
+
+            if (File.Exists(videoSaveLocation))
+            {
+                return Ok(new ProgressArgs()
+                {
+                    Id = clipToSave.Name,
+                    BytesReceived = -1,
+                    FileName = videoFileName,
+                    TotalBytes = -1,
+                    IsDownloading = false,
+                    Extra = new { clipToSave.ModuleIndex, clipToSave.ClipIndex, DownloadedEarlier = true }
+                });
+            }
+            #endregion
+
+            #region Get clip url
             string clipUrl = string.Empty;
-            // 1- get the video clip url to download.
+            // 2- get the video clip url to download.
             try
             {
                 clipUrl = GetClipUrl(clipToSave);
@@ -100,17 +125,14 @@ namespace PluralsightDownloader.Web.Controllers
             {
                 return InternalServerError(exception);
             }
+            #endregion
 
-            // 2- make sure the folders structure exist.
-            var videoSaveDirectory = SetUpVideoFolderStructure(clipToSave.CourseTitle,
-                getNum(clipToSave.ModuleIndex) + "- " + clipToSave.ModuleTitle,
-                (getNum(clipToSave.ClipIndex)) + "- " + clipToSave.Title);
-
+            #region download the video and report progress back
             // 3- download the video and report progress back.
             int receivedBytes = 0;
             int totalBytes = 0;
-            var videoFileName = ((getNum(clipToSave.ClipIndex)) + "- " + clipToSave.Title + ".mp4").ToValidFileName();
-            var videoSaveLocation = videoSaveDirectory.FullName + "\\" + videoFileName;
+
+
             var client = new WebClient();
 
             using (var stream = await client.OpenReadTaskAsync(clipUrl))
@@ -143,10 +165,10 @@ namespace PluralsightDownloader.Web.Controllers
                         hubContext.Clients.All.updateProgress(progress);
                     }
                 }
-            }
+            } 
+            #endregion
 
-            // 4- save the video file.
-
+            // 4- save the video file
             return Ok(new ProgressArgs()
             {
                 Id = clipToSave.Name,
@@ -154,10 +176,15 @@ namespace PluralsightDownloader.Web.Controllers
                 FileName = videoFileName,
                 TotalBytes = totalBytes,
                 IsDownloading = false,
-                Extra = new { clipToSave.ModuleIndex, clipToSave.ClipIndex }
+                Extra = 
+                new
+                {
+                    clipToSave.ModuleIndex,
+                    clipToSave.ClipIndex,
+                    DownloadedEarlier = false
+                }
             });
-
-
+            
             //System.Threading.Thread.Sleep(System.DateTime.Now.Millisecond * 60);
         }
 

@@ -1,4 +1,4 @@
-﻿window.DIVISION_FACTOR = 3;
+﻿window.DIVISION_FACTOR = 2;
 
 (function () {
     'use strict';
@@ -145,6 +145,8 @@
             return window.parseInt(Math.ceil(sec / window.DIVISION_FACTOR));
             
         }
+        
+        //Downlaod on server 
         function downloadClip(clip, module) {
             clip.progress.isDownloading = true;
             toaster.pop({
@@ -153,6 +155,7 @@
                 body: 'Starting saving video <b>"' + clip.title + '</b>".',
                 bodyOutputType: 'trustedHtml'
             });
+
             clip.courseTitle = vm.course.title;
             clip.moduleTitle = module.title;
             clip.moduleIndex = _.findIndex(vm.course.courseModules, function (moduleItem) {

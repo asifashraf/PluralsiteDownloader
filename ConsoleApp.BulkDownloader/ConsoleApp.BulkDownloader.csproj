@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DirectShowLib-2005">
+      <HintPath>..\dll\DirectShowLib-2005.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -46,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Course.cs" />
+    <Compile Include="dstest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="settings.cs" />

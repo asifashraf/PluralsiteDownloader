@@ -1,4 +1,7 @@
-﻿Building Scalable APIs with the AWS API Gateway
+﻿AWS Security Fundamentals
+https://app.pluralsight.com/library/courses/aws-security-fundamentals
+
+Building Scalable APIs with the AWS API Gateway
 https://app.pluralsight.com/library/courses/scalable-aws-api-gateway
 
 Amazon Web Services (AWS) Fundamentals for System Administrators
