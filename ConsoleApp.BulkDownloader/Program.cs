@@ -16,9 +16,16 @@ namespace ConsoleApp.BulkDownloader
         static System.Timers.Timer timer = new System.Timers.Timer();
         static void Main(string[] args)
         {
+            
 
+
+            Console.ReadKey();
+            return;
+            
+            
+            
             Console.WriteLine("Started");
-
+            
             var plural = getUrls("plural.txt");
 
             for (int i = 0; i < plural.Count; i++)
@@ -116,5 +123,7 @@ namespace ConsoleApp.BulkDownloader
             }
             return http;
         }
+
+       
     }
 }

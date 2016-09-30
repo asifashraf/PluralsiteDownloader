@@ -21,3 +21,7 @@ D:\Misc\PluralsightDownloader.Web\ConsoleApp.BulkDownloader\bin\Debug\ConsoleApp
 D:\Misc\PluralsightDownloader.Web\ConsoleApp.BulkDownloader\bin\Debug\ConsoleApp.BulkDownloader.pdb
 D:\Misc\PluralsightDownloader.Web\ConsoleApp.BulkDownloader\bin\Debug\Newtonsoft.Json.dll
 D:\Misc\PluralsightDownloader.Web\ConsoleApp.BulkDownloader\obj\Debug\ConsoleApp.BulkDownloader.csprojResolveAssemblyReference.cache
+G:\Misc\PluralsiteDownloader\ConsoleApp.BulkDownloader\bin\Debug\Frapper.dll
+G:\Misc\PluralsiteDownloader\ConsoleApp.BulkDownloader\bin\Debug\ffmpeg\ffmpeg.exe
+G:\Misc\PluralsiteDownloader\ConsoleApp.BulkDownloader\bin\Debug\ffmpeg\ffplay.exe
+G:\Misc\PluralsiteDownloader\ConsoleApp.BulkDownloader\bin\Debug\ffmpeg\ffprobe.exe
