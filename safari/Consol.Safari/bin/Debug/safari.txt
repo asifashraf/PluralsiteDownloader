@@ -1,0 +1,19 @@
+﻿Amazon Web Services - Virtual Private Cloud
+https://www.safaribooksonline.com/library/view/amazon-web-services/9781771373944/
+
+Cloud Computing with Amazon Web Services LiveLessons
+https://www.safaribooksonline.com/library/view/cloud-computing-with/9780321705563/
+
+An Overview of Cloud Computing with Amazon Web Services
+https://www.safaribooksonline.com/library/view/an-overview-of/9781771376037/
+
+Hands-on with Amazon Redshift
+https://www.safaribooksonline.com/library/view/hands-on-with-amazon/9781771374125/
+
+Introduction to Cloud Computing with Amazon Web Services
+https://www.safaribooksonline.com/library/view/introduction-to-cloud/9781771374118/
+
+Introduction to Amazon Web Services (AWS) - EC2 Deployment Fundamentals
+https://www.safaribooksonline.com/library/view/introduction-to-amazon/9781771373548/
+
+

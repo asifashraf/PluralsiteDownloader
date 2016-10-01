@@ -1,0 +1,17 @@
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\ConsoleApp.Plural.exe.config
+G:\Misc\TutDown\plural\ConsoleApp.Plural\obj\Debug\ConsoleApp.Plural.csprojResolveAssemblyReference.cache
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\ConsoleApp.Plural.exe
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\ConsoleApp.Plural.pdb
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\EntityFramework.dll
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\EntityFramework.SqlServer.dll
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\Newtonsoft.Json.dll
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\System.Data.SQLite.dll
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\System.Data.SQLite.EF6.dll
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\System.Data.SQLite.Linq.dll
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\EntityFramework.xml
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\EntityFramework.SqlServer.xml
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\System.Data.SQLite.xml
+G:\Misc\TutDown\plural\ConsoleApp.Plural\obj\Debug\ConsoleApp.Plural.exe
+G:\Misc\TutDown\plural\ConsoleApp.Plural\obj\Debug\ConsoleApp.Plural.pdb
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\Lib.dll
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\Lib.pdb

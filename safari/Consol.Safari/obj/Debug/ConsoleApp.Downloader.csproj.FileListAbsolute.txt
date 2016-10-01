@@ -1,0 +1,12 @@
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\bin\Debug\ConsoleApp.Downloader.exe.config
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\obj\Debug\ConsoleApp.Downloader.csprojResolveAssemblyReference.cache
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\bin\Debug\ConsoleApp.Downloader.exe
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\bin\Debug\ConsoleApp.Downloader.pdb
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\obj\Debug\ConsoleApp.Downloader.exe
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\obj\Debug\ConsoleApp.Downloader.pdb
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\bin\Debug\safari.txt
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\bin\Debug\Newtonsoft.Json.dll
+G:\Misc\SafariDownloader\ConsoleApp.Downloader\bin\Debug\Newtonsoft.Json.xml
+G:\Misc\TutDown\safari\ConsoleApp.Downloader\bin\Debug\ConsoleApp.Downloader.exe.config
+G:\Misc\TutDown\safari\ConsoleApp.Downloader\obj\Debug\ConsoleApp.Downloader.exe
+G:\Misc\TutDown\safari\ConsoleApp.Downloader\obj\Debug\ConsoleApp.Downloader.pdb

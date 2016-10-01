@@ -1,0 +1,8 @@
+G:\Misc\TutDown\safari\ConsoleApp.Downloader\bin\Debug\Consol.Safari.exe.config
+G:\Misc\TutDown\safari\Consol.Safari\bin\Debug\Consol.Safari.exe.config
+G:\Misc\TutDown\safari\Consol.Safari\bin\Debug\safari.txt
+G:\Misc\TutDown\safari\Consol.Safari\bin\Debug\Consol.Safari.exe
+G:\Misc\TutDown\safari\Consol.Safari\bin\Debug\Consol.Safari.pdb
+G:\Misc\TutDown\safari\Consol.Safari\obj\Debug\Consol.Safari.csprojResolveAssemblyReference.cache
+G:\Misc\TutDown\safari\Consol.Safari\obj\Debug\Consol.Safari.exe
+G:\Misc\TutDown\safari\Consol.Safari\obj\Debug\Consol.Safari.pdb
