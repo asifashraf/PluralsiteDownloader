@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Plural", "..\plu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Safari", "..\safari\WebApp.Safari\WebApp.Safari.csproj", "{AE269371-CF1A-4888-9EAD-7285E2FB33EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{693C1F26-89CD-481E-87C7-825721DEC43F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\_app_downloader\config\common.json = ..\..\..\_app_downloader\config\common.json
+		..\..\..\_app_downloader\config\ConsoleApp.Plural.json = ..\..\..\_app_downloader\config\ConsoleApp.Plural.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

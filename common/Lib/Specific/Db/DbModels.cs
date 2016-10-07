@@ -22,7 +22,6 @@ namespace AnimalMarketDal.DomainModel
         public virtual ICollection<EventData> EventDataValues { get; set; }
     }
 
-
     public class EventData
     {
         public long EventDataId { get; set; }

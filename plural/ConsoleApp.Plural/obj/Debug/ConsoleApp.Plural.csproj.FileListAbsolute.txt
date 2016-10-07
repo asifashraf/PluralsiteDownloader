@@ -15,3 +15,4 @@ G:\Misc\TutDown\plural\ConsoleApp.Plural\obj\Debug\ConsoleApp.Plural.exe
 G:\Misc\TutDown\plural\ConsoleApp.Plural\obj\Debug\ConsoleApp.Plural.pdb
 G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\Lib.dll
 G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\Lib.pdb
+G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\plural.txt

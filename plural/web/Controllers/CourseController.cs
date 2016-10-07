@@ -67,15 +67,21 @@ namespace PluralsightDownloader.Web.Controllers
 
             if (File.Exists(videoSaveLocation))
             {
-                return Ok(new ProgressArgs()
+                var fi = new FileInfo(videoSaveLocation);
+                var prg = new ProgressArgs()
                 {
                     Id = clipToSave.Name,
-                    BytesReceived = -1,
+                    BytesReceived = Convert.ToInt32(fi.Length),
                     FileName = videoFileName,
-                    TotalBytes = -1,
+                    TotalBytes = Convert.ToInt32(fi.Length),
                     IsDownloading = false,
                     Extra = new { clipToSave.ModuleIndex, clipToSave.ClipIndex, DownloadedEarlier = true }
-                });
+                };
+
+                var hubContext = GlobalHost.ConnectionManager.GetHubContext<ProgressHub>();
+                hubContext.Clients.All.updateProgress(prg);
+
+                return Ok(prg);
             }
             #endregion
 

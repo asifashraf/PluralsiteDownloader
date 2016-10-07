@@ -4,6 +4,10 @@ using AnimalMarketDal.DomainModel;
 
 namespace AnimalMarketDal.Dal
 {
+
+    //sqlite mysql workbench export tool
+    //https://github.com/tatsushid/mysql-wb-exportsqlite
+
     public class AnimalContext : DbContext
     {
         public AnimalContext() 

@@ -9,13 +9,11 @@ namespace ConsoleApp.Plural
         public static Setting setting = new Setting();
         static void Main(string[] args)
         {
-            var db = new AnimalContext();
+            var downloader = new Business();
+            downloader.Start();
 
-            var animalTypes = db.Users.ToList();
 
             Console.ReadKey();
-            
-            return;
         }
     }
 }

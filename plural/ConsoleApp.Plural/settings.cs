@@ -9,6 +9,16 @@ using System.Threading.Tasks;
 
 class Setting
 {
+    /*G:\_app_downloader\
+    \config\
+    \db\
+    \tools\
+    \tools\ffmpeg\*/
+
+    public SettingCommon Common { get; set; }
+
+    public SettingPlural Plural { get; set; }
+    
     public Setting()
     {
         var machine = Environment.MachineName;
@@ -38,9 +48,7 @@ class Setting
 
     public string SettingDirectory { get; set; }
 
-    public SettingCommon Common { get; set; }
 
-    public SettingPlural Plural { get; set; }
 }
 
 class SettingPlural
@@ -50,4 +58,5 @@ class SettingPlural
     public decimal DivisionFactor { get; set; }
 
     public string CourseDataUrl { get; set; }
+    public string DownloadingHost { get; set; }
 }

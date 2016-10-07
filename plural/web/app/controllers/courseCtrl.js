@@ -115,12 +115,22 @@
                 vm.currentlyDownloading = true;
                 //var duration = toSeconds(nextItemToDownload.clip.duration);
                 var hold = toSeconds(nextItemToDownload.clip.hold);
+             //   debugger;
+                if (window.xProgress) {
+                    if (window.xProgress.extra) {
+                        if (window.xProgress.extra.downloadedEarlier) {
+                            if (window.xProgress.extra.downloadedEarlier == true) {
+                                hold = 0.1;
+                            }
+                        }
+                    }
+                }
 
                 if (hold > 180) {
                     hold = 180;
                 }
 
-                if (hold < 30 && hold > 0) {
+                if (hold < 30 && hold > 0.2) {
                     hold = 30;
                 }
 
@@ -132,22 +142,13 @@
                     //delay here
                     return vm.downloadClip(nextItemToDownload.clip, nextItemToDownload.module);
                 }, hold * 1000); // 120 seconds delay to avoid blocking account.
+                window.xProgress = null;
             }
         }
-        function toSeconds(hms) {
-            //ll("hms", hms);
-            var a = hms.toString().split(':'); // split it at the colons
-
-            // minutes are worth 60 seconds. Hours are worth 60 minutes.
-            var sec = (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]);
-            //ll("seconds", sec/3);
-
-            return window.parseInt(Math.ceil(sec / window.DIVISION_FACTOR));
-            
-        }
-        
+       
         //Downlaod on server 
         function downloadClip(clip, module) {
+            window.xProgress = null;
             clip.progress.isDownloading = true;
             toaster.pop({
                 type: 'info',
@@ -162,6 +163,7 @@
                 return moduleItem.title === module.title;
             });
             return coursesService.downloadCourseModuleClip(clip).then(function (progress) {
+                window.xProgress = progress;
                 toaster.pop({
                     type: 'success',
                     title: '',
@@ -171,8 +173,12 @@
                 $timeout(function () {
                     clip.progress.hasBeenDownloaded = true;
                     clip.progress.isDownloading = false;
+
+                    
+
                 }, 500); // sometimes, progress callback comes after success callbak.
             }, function (errorResponse) {
+              //  debugger;
                 switch (errorResponse.status) {
                     case 429:
                         var downloadDelaySec = _.random(5, 15);
@@ -221,5 +227,19 @@
         }
 
         loadCourseData();
+
+
+
+        function toSeconds(hms) {
+            //ll("hms", hms);
+            var a = hms.toString().split(':'); // split it at the colons
+
+            // minutes are worth 60 seconds. Hours are worth 60 minutes.
+            var sec = (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]);
+            //ll("seconds", sec/3);
+
+            return window.parseInt(Math.ceil(sec / window.DIVISION_FACTOR));
+
+        }
     }
 })();

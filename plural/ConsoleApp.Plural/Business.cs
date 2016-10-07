@@ -37,7 +37,7 @@ namespace ConsoleApp.Plural
 
             Console.WriteLine("Parsed file");
 
-            timer.Interval = 5000;
+            timer.Interval = 1000;
 
             timer.Elapsed += timer_Elapsed;
 
@@ -64,7 +64,7 @@ namespace ConsoleApp.Plural
                         var json = webClient.DownloadString(string.Format(Program.setting.Plural.CourseDataUrl, name));
                         course = JsonConvert.DeserializeObject<Course>(json);
 
-                        var url = String.Format("{0}/Home/Index?course={1}", Program.setting.Plural.PluralTextFile, name);
+                        var url = String.Format("{0}Home/Index?course={1}", Program.setting.Plural.DownloadingHost, name);
 
                         Console.WriteLine("Course duration found: {0}; starting process", course.Duration);
 

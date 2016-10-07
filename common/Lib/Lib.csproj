@@ -63,8 +63,6 @@
     <Compile Include="Specific\Db\DbContext.cs" />
     <Compile Include="Specific\Db\DbModels.cs" />
     <Compile Include="Specific\Db\Reg.cs" />
-    <Compile Include="Specific\Db\Repocs.cs" />
-    <Compile Include="Specific\Db\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

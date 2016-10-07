@@ -199,3 +199,4 @@ G:\Misc\TutDown\plural\web\bin\Microsoft.Web.Infrastructure.dll
 G:\Misc\TutDown\plural\web\bin\Microsoft.Web.Infrastructure.xml
 G:\Misc\TutDown\plural\web\obj\Debug\PluralsightDownloader.Web.dll
 G:\Misc\TutDown\plural\web\obj\Debug\PluralsightDownloader.Web.pdb
+G:\Misc\TutDown\plural\web\bin\System.Web.WebPages.Deployment.dll
