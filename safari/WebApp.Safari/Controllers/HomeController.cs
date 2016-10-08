@@ -166,12 +166,11 @@ namespace WebApp.Safari.Controllers
             });
         }
 
-
         public void createCourseDirectory(VideoList model)
         {                      
             var rootDir = new DirectoryInfo(settings.DownloadFolder);
             var courseDirName = cleanName(model.CourseName);
-            var courseDirPath = settings.DownloadFolder + courseDirName + @"\";
+            var courseDirPath = MvcApplication.settings.Safari.SafariDownloadDirectory;
             var courseDir = new DirectoryInfo( courseDirPath );
             #region Create directories
             if (!rootDir.Exists)

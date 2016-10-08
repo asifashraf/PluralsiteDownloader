@@ -200,3 +200,10 @@ G:\Misc\TutDown\plural\web\bin\Microsoft.Web.Infrastructure.xml
 G:\Misc\TutDown\plural\web\obj\Debug\PluralsightDownloader.Web.dll
 G:\Misc\TutDown\plural\web\obj\Debug\PluralsightDownloader.Web.pdb
 G:\Misc\TutDown\plural\web\bin\System.Web.WebPages.Deployment.dll
+G:\Misc\TutDown\plural\web\bin\Lib.dll
+G:\Misc\TutDown\plural\web\bin\EntityFramework.dll
+G:\Misc\TutDown\plural\web\bin\System.Data.SQLite.dll
+G:\Misc\TutDown\plural\web\bin\Lib.pdb
+G:\Misc\TutDown\plural\web\bin\EntityFramework.xml
+G:\Misc\TutDown\plural\web\bin\System.Data.SQLite.xml
+G:\Misc\TutDown\plural\web\obj\Debug\PluralsightDownloader.Web.csprojResolveAssemblyReference.cache

@@ -12,6 +12,8 @@ namespace PluralsightDownloader.Web
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+        public static Setting settings;
+        public static bool inited;
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
@@ -22,6 +24,16 @@ namespace PluralsightDownloader.Web
 
             //var testkey = ConfigurationManager.AppSettings["testkey"];
             //Console.WriteLine(testkey);
+            
+        }
+
+        protected void Application_BeginRequest()
+        {
+            if (!inited)
+            {
+                inited = true;
+                WebApiApplication.settings = Setting.Load(SettingClientType.Web);
+            }
         }
     }
 }

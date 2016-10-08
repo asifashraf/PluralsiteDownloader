@@ -11,4 +11,4 @@ G:\Misc\TutDown\common\Lib\bin\Debug\System.Data.SQLite.Linq.dll
 G:\Misc\TutDown\common\Lib\bin\Debug\EntityFramework.xml
 G:\Misc\TutDown\common\Lib\bin\Debug\EntityFramework.SqlServer.xml
 G:\Misc\TutDown\common\Lib\bin\Debug\System.Data.SQLite.xml
-G:\Misc\TutDown\common\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+G:\Misc\TutDown\common\Lib\bin\Debug\Newtonsoft.Json.dll

@@ -6,7 +6,7 @@ namespace ConsoleApp.Plural
 {
     class Program
     {
-        public static Setting setting = new Setting();
+        public static Setting setting = new Setting(SettingClientType.NonWeb);
         static void Main(string[] args)
         {
             var downloader = new Business();

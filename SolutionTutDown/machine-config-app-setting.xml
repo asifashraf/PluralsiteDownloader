@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <add key="\\DESKTOP-GHOUEIN\G:\Misc\TutDown\plural\ConsoleApp.Plural\bin\Debug\"
+       value="G:\_app_downloader\"/>
+
+  <add key="\\DESKTOP-GHOUEIN\localhost:88"
+   value="G:\_app_downloader\"/>
+
+  <add key="\\DESKTOP-GHOUEIN\localhost:83"
+         value="G:\_app_downloader\"/>
+
+
+</appSettings>

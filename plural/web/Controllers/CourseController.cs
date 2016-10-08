@@ -197,9 +197,10 @@ namespace PluralsightDownloader.Web.Controllers
         // ToDo: videos location should be configurable from client.
         private DirectoryInfo SetUpVideoFolderStructure(string courseTitle, string moduleTitle, string clipTitle)
         {
-            Directory.CreateDirectory(Constants.DOWNLOAD_FOLDER_PATH);
-            Directory.CreateDirectory(Constants.DOWNLOAD_FOLDER_PATH + "\\" + courseTitle.ToValidFileName());
-            return Directory.CreateDirectory(Constants.DOWNLOAD_FOLDER_PATH + "\\" + courseTitle.ToValidFileName() + "\\" + moduleTitle.ToValidFileName());
+            var path = WebApiApplication.settings.Plural.PluralDownloadDirectory;
+            Directory.CreateDirectory(path);
+            Directory.CreateDirectory(path + courseTitle.ToValidFileName());
+            return Directory.CreateDirectory(path + courseTitle.ToValidFileName() + "\\" + moduleTitle.ToValidFileName());
         }
 
         private string GetClipUrl(ClipToSave clip)
