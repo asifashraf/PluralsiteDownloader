@@ -12,3 +12,17 @@ G:\Misc\TutDown\common\Lib\bin\Debug\EntityFramework.xml
 G:\Misc\TutDown\common\Lib\bin\Debug\EntityFramework.SqlServer.xml
 G:\Misc\TutDown\common\Lib\bin\Debug\System.Data.SQLite.xml
 G:\Misc\TutDown\common\Lib\bin\Debug\Newtonsoft.Json.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\Lib.dll.config
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\Lib.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\Lib.pdb
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\EntityFramework.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\EntityFramework.SqlServer.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\Newtonsoft.Json.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\System.Data.SQLite.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\EntityFramework.xml
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\EntityFramework.SqlServer.xml
+D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\System.Data.SQLite.xml
+D:\Misc\PluralsightDownloader.Web\common\Lib\obj\Debug\Lib.dll
+D:\Misc\PluralsightDownloader.Web\common\Lib\obj\Debug\Lib.pdb

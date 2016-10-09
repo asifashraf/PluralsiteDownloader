@@ -207,3 +207,16 @@ G:\Misc\TutDown\plural\web\bin\Lib.pdb
 G:\Misc\TutDown\plural\web\bin\EntityFramework.xml
 G:\Misc\TutDown\plural\web\bin\System.Data.SQLite.xml
 G:\Misc\TutDown\plural\web\obj\Debug\PluralsightDownloader.Web.csprojResolveAssemblyReference.cache
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\PluralsightDownloader.Web.dll.config
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\PluralsightDownloader.Web.dll
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\PluralsightDownloader.Web.pdb
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\Lib.dll
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\System.Web.WebPages.Deployment.dll
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\System.Data.SQLite.dll
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\EntityFramework.dll
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\Lib.pdb
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\System.Data.SQLite.xml
+D:\Misc\PluralsightDownloader.Web\plural\web\bin\EntityFramework.xml
+D:\Misc\PluralsightDownloader.Web\plural\web\obj\Debug\PluralsightDownloader.Web.csprojResolveAssemblyReference.cache
+D:\Misc\PluralsightDownloader.Web\plural\web\obj\Debug\PluralsightDownloader.Web.dll
+D:\Misc\PluralsightDownloader.Web\plural\web\obj\Debug\PluralsightDownloader.Web.pdb

@@ -1,1 +1,13 @@
-﻿https://app.pluralsight.com/library/courses/google-cloud-big-query
+﻿https://app.pluralsight.com/library/courses/tactical-design-patternsdot-net
+https://app.pluralsight.com/library/courses/javascript-practical-design-patterns
+https://app.pluralsight.com/library/courses/patterns-library
+https://app.pluralsight.com/library/courses/github-integrating-node-applications
+https://app.pluralsight.com/library/courses/nodejs-security-express-angular-get-started
+https://app.pluralsight.com/library/courses/nodejs-es6-web-apps
+https://app.pluralsight.com/library/courses/play-by-play-node-web-api-john-papa-sam-artioli
+https://app.pluralsight.com/library/courses/nodejs-data-access-using-knex
+https://app.pluralsight.com/library/courses/running-node-applications-io-js
+https://app.pluralsight.com/library/courses/unit-testing-nodejs
+https://app.pluralsight.com/library/courses/nodejs-testing-strategies
+https://app.pluralsight.com/library/courses/node-js-express-rest-web-services
+https://app.pluralsight.com/library/courses/real-time-web-nodejs
