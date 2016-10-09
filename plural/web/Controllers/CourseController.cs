@@ -167,8 +167,13 @@ namespace PluralsightDownloader.Web.Controllers
                             Extra = new { clipToSave.ModuleIndex, clipToSave.ClipIndex }
                         };
                         fileStream.Write(buffer, 0, bytesRead);
-                        var hubContext = GlobalHost.ConnectionManager.GetHubContext<ProgressHub>();
-                        hubContext.Clients.All.updateProgress(progress);
+                        var percentage = progress.BytesReceived / (progress.TotalBytes / 100);
+                        if (percentage > 90)
+                        {
+                            var hubContext = GlobalHost.ConnectionManager.GetHubContext<ProgressHub>();
+                            hubContext.Clients.All.updateProgress(progress);
+                        }
+                        
                     }
                 }
             } 

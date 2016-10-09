@@ -13,6 +13,9 @@ namespace Consol.Safari
 {
     class Program
     {
+
+        public static Setting setting = Setting.Load(SettingClientType.NonWeb);
+
         static List<string> items = new List<string>();
         static System.Timers.Timer timer = new System.Timers.Timer();
         static void Main(string[] args)
