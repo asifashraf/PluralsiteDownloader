@@ -18,3 +18,9 @@ G:\Misc\TutDown\safari\WebApp.Safari\bin\Microsoft.Web.Infrastructure.xml
 G:\Misc\TutDown\safari\WebApp.Safari\obj\Debug\WebApp.Safari.csprojResolveAssemblyReference.cache
 G:\Misc\TutDown\safari\WebApp.Safari\obj\Debug\WebApp.Safari.dll
 G:\Misc\TutDown\safari\WebApp.Safari\obj\Debug\WebApp.Safari.pdb
+G:\Misc\TutDown\safari\WebApp.Safari\bin\Lib.dll
+G:\Misc\TutDown\safari\WebApp.Safari\bin\System.Data.SQLite.dll
+G:\Misc\TutDown\safari\WebApp.Safari\bin\EntityFramework.dll
+G:\Misc\TutDown\safari\WebApp.Safari\bin\Lib.pdb
+G:\Misc\TutDown\safari\WebApp.Safari\bin\System.Data.SQLite.xml
+G:\Misc\TutDown\safari\WebApp.Safari\bin\EntityFramework.xml

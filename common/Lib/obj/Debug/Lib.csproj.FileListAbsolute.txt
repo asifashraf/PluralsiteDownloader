@@ -26,3 +26,4 @@ D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\EntityFramework.SqlServer
 D:\Misc\PluralsightDownloader.Web\common\Lib\bin\Debug\System.Data.SQLite.xml
 D:\Misc\PluralsightDownloader.Web\common\Lib\obj\Debug\Lib.dll
 D:\Misc\PluralsightDownloader.Web\common\Lib\obj\Debug\Lib.pdb
+G:\Misc\TutDown\common\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
